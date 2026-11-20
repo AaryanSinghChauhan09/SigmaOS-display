@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-display"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Display output manager (modes, connectors, state)"
+upstream = []
+
+[contract]
+provides = ["sigmadisplaymanager"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
